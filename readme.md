@@ -1,8 +1,9 @@
-# Samevattingen
+# Samenvattingen
 
 Chapter 1
 - Install Devasc VM
 - Linux:
+
 Use the ls command to display a listing of the current directory. Remember that commands are casesensitive
 
 Use the ls command with the labs argument to display the contents of the labs folder.

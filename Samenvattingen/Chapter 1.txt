@@ -1,6 +1,5 @@
-# Samenvattingen
+# Chapter 1
 
-Chapter 1
 - Install Devasc VM
 - Linux:
 
@@ -34,5 +33,46 @@ Use the sudo command to issue a single command as the root user. A new terminal 
 
 Use the sudo apt-get update command to update to refresh the list of available packages installed on
 the VM. This command will not work without using the sudo command.
+
+
+Use the ls Desktop -l to display the contents of the Desktop folder.
+devasc@labvm:~$ ls Desktop -l
+
+cd Documents/
+echo "ls ../Desktop" > myfile.sh
+cat myfile.sh
+./myfile.sh #Run the script
+ls -l myfile.sh
+chmod +x myfile.sh
+sudo chown root myfile.sh
+
+mv myfile.sh /home/devasc/Desktop/
+mv myfile.sh myfile_renamed.sh
+cp myfile_renamed.sh myfile_renamed_and_copied.sh
+rm myfile_renamed_and_copied.sh
+
+Mofify File
+echo > 
+echo >>
+cat
+
+
+GREP
+grep devasc /etc/passwd 
+grep root /etc/passwd
+grep '^root' /etc/passwd
+grep 'false$' /etc/passwd
+grep 'd..m' /etc/passwd
+grep '[8-9]' /etc/passwd
+grep '[,]' /etc/passwd
+grep 'new*' /etc/passwd
+ 
+
+
+
+
+
+
+
 
 
